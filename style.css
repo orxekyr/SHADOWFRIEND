@@ -1,0 +1,127 @@
+body{
+    background-color: rgb(89, 49, 168);
+    background: linear-gradient( to left, rgb(29, 1, 1), rgb(119, 22, 22)); 
+
+
+}
+header{
+    background-color: rgb(44, 0, 0);
+    height: 600px;
+    font-size: 200px;
+    text-align: center;
+    font-weight: bold;
+    color: azure;
+    background-image: url("https://www.esports.net/wp-content/uploads/2023/03/dota-2-shadow-fiend-main.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+
+main{
+    height: 500px;
+}
+
+p{
+    font-size: 30px;
+}
+h3{
+    font-size:50px;
+    text-align:left;
+    padding-left:240px;
+    font-style:inherit
+}
+h1{
+    text-align: center;
+    font-weight: 40;
+    font-size: 100px;
+    font-style: italic;
+    font-family:Arial, Helvetica, sans-serif;
+    color: whitesmoke;
+    text-align:left;
+    padding-left:150px;
+}
+footer{
+    margin-top:400px;
+    background-color:rgb(29, 1,1);
+    padding:10px;
+    float:left;
+    width:100%;
+    height:100%;
+    text-align:justify;
+    display:flex;
+}
+.f_left{
+    
+    width:30%;
+    float:left;
+    text-align:center;
+    padding:20px;
+
+}
+
+.f_right{
+    width:70%;
+    float:right;
+}
+.f_right img{
+    width: 100px;
+}
+.f_right ul{
+    list-style:none;
+    display:flex;
+    align-items:center;
+}
+.nav{
+    width: 100%;
+    height: 10%;
+    background-color: rgba(41, 4, 4, 0.823);
+    
+}
+
+.right{
+    width: 90%;
+    height: 100%;
+    background-color: rgba(31, 121, 238, 0.469);
+}
+.nav{
+    position: sticky;
+    top:0;
+}
+.nav ul{
+    list-style: none;
+    padding:0;
+    margin:0;
+    background-color:rgba(153, 22, 22, 0.486);
+    font-size:20px;
+    width:100%;
+    text-align:center;
+    overflow: hidden;
+    float:left;
+}
+.nav a{
+    display:block;
+    text-decoration: none;
+    color:white;
+    padding: 8px 16px;
+    float:left;
+}
+.nav a:hover{
+    background-color:rgba(0, 110, 255, 0.534);
+    color:rgb(0, 0, 0);
+}
+
+.block5{
+    width:100%;
+    height:300px;
+    padding:50px;
+    background-color:blue;
+}
+button {
+    color: blue;
+    border-radius: 24px;
+    border: 5px solid red;
+    cursor: 	zoom-in;
+  }
+  
+
